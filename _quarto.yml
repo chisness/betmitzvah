@@ -1,23 +1,59 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Bet Mitzvah"
   author: "Max Chiswick"
   date: "6/19/2024"
+  sidebar:
+    style: docked
+    background: light
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - part: "TBD1"
+      chapters:
+        - intro.qmd
+    # - part: "TBD2"
+    #   chapters:
+    #     # - gametheory.qmd
+    #     # - decisionmaking.qmd
+    #     # - toypoker.qmd 
+    #     # - gametrees.qmd
+    # - part: "TBD3"
+    #   chapters: 
+    #     # - cfr.qmd 
+    #     # - montecarlo.qmd
+    #     # - solvers.qmd 
+    # - part: "TBD4"
+    #   chapters: 
+    #     # - mlmath.qmd 
+    #     # - ml.qmd
+    #     # - dl.qmd
+    #     # - rl.qmd
+    # - part: "TBD5"
+    #   chapters: 
+    #     # - aiagents.qmd
+    #     # - recentai.qmd 
+    # - part: "TBD6"
+    #   chapters: 
+    #     # - opponentmodeling.qmd
+    #     # - llms.qmd
+    #     # - aisafety.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme: cosmo
+    math: true 
+    toc: true
+    toc-expand: true
+    mathjax: 
+      config: 
+        text: 
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
   pdf:
     documentclass: scrreprt
-
 
 
