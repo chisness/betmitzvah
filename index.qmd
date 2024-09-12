@@ -1,5 +1,7 @@
 # Home {.unnumbered}
 
+Bet Mitzvah: Draft coming Dec 12, 2024
+
 This is a Quarto book.
 
 To learn more about Quarto books visit <https://quarto.org/docs/books>.

@@ -5,41 +5,41 @@ project:
 book:
   title: "Bet Mitzvah"
   author: "Max Chiswick"
-  date: "6/19/2024"
+  date: "9/11/2024"
+  cover-image: cover.png
   sidebar:
     style: docked
     background: light
   chapters:
     - index.qmd
-    - part: "TBD1"
-      chapters:
-        - intro.qmd
-    # - part: "TBD2"
-    #   chapters:
-    #     # - gametheory.qmd
-    #     # - decisionmaking.qmd
-    #     # - toypoker.qmd 
-    #     # - gametrees.qmd
-    # - part: "TBD3"
-    #   chapters: 
-    #     # - cfr.qmd 
-    #     # - montecarlo.qmd
-    #     # - solvers.qmd 
-    # - part: "TBD4"
-    #   chapters: 
-    #     # - mlmath.qmd 
-    #     # - ml.qmd
-    #     # - dl.qmd
-    #     # - rl.qmd
-    # - part: "TBD5"
-    #   chapters: 
-    #     # - aiagents.qmd
-    #     # - recentai.qmd 
-    # - part: "TBD6"
-    #   chapters: 
-    #     # - opponentmodeling.qmd
-    #     # - llms.qmd
-    #     # - aisafety.qmd
+
+    - part: intro.qmd
+
+    - part: "CHAPTER 1"
+
+    - part: "CHAPTER 2"
+
+    - part: "CHAPTER 3"
+
+    - part: "CHAPTER 4"
+
+    - part: "CHAPTER 5"
+
+    - part: "CHAPTER 6"
+
+    - part: "CHAPTER 7"
+
+    - part: "CHAPTER 8"
+
+    - part: "CHAPTER 9"
+
+    - part: "CHAPTER 10"
+
+    - part: "CHAPTER 11"
+
+    - part: "CHAPTER 12"
+
+    - part: "CHAPTER 13"
 
 bibliography: references.bib
 
